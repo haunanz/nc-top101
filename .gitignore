@@ -1,0 +1,23 @@
+# Go 构建产物
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+coverage.txt
+
+# 依赖目录（本项目仅用标准库，正常不会产生）
+/vendor/
+
+# 本地 Go 构建缓存（沙箱环境用，避免写入用户目录）
+/.gocache/
+/.gotmp/
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*~
+.DS_Store
